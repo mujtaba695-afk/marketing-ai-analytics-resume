@@ -114,7 +114,7 @@ headline_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
 tight(headline_para)
 headline_para.paragraph_format.space_after = Pt(2)
 add_run(headline_para,
-        "Marketing AI & Analytics Lead  |  10+ Years Experience",
+        "Performance Marketing & AI Analytics Lead  |  10+ Years Experience",
         bold=True, size=10, color=DARK)
 
 add_hr(doc, "1A1A2E")
@@ -127,7 +127,7 @@ summary = doc.add_paragraph()
 tight(summary)
 summary.paragraph_format.space_after = Pt(4)
 add_run(summary,
-    "Results-driven Marketing AI & Analytics Lead with 10+ years of experience sitting at the intersection of marketing measurement, business intelligence, and AI enablement. "
+    "Results-driven Performance Marketing & AI Analytics Lead with 10+ years of experience sitting at the intersection of marketing measurement, business intelligence, and AI enablement. "
     "Specializes in owning end-to-end attribution frameworks, establishing single-source-of-truth (SSOT) reporting systems, and driving organization-wide AI transformation. "
     "Proven builder and operator with hands-on experience engineering autonomous AI agents, custom scraper pipelines, locally-hosted CRM dashboards, and automated report pipelines (Python, APIs, webhooks, Power Automate, Make) that reduce operational effort by 40%. "
     "Managed budgets up to AED 35M and bridged advanced analytics with practical AI implementations to optimize CAC and maximize marketing efficiency.",
