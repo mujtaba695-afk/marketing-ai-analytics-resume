@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+import os
+import json
+
+# Build complete ultra-clean Framer Cohesion portfolio HTML
+framer_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -767,3 +771,9 @@
 
 </body>
 </html>
+"""
+
+with open("index.html", "w") as f:
+    f.write(framer_html)
+
+print("✅ Successfully built Framer Cohesion portfolio index.html with clean company logos!")
